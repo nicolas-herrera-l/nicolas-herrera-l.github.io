@@ -27,8 +27,8 @@ author:
   name             : "Your Sidebar Name"
   pronouns         : # example: "she/her"  
   bio              : "PhD Candidate at University of California, Santa Barbara"
-  location         : ""
-  employer         : ""
+  location         : # URL
+  employer         : # URL
   uri              : # URL
   email            : "jherreralarotta@ucsb.edu" 
 
