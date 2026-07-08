@@ -23,7 +23,7 @@ repository               : "nicolas-herrera-l.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "main_picture.png"
+  avatar           : "main_picture.jpg"
   name             : "Juan Nicolas Herrera"
   pronouns         : # example: "she/her"  
   bio              : "PhD Candidate at University of California, Santa Barbara"
