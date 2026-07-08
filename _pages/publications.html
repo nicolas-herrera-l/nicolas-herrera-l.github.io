@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Publications"
+title: "Research"
 permalink: /publications/
 author_profile: true
 ---
@@ -9,28 +9,24 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% include base_path %}
+<h2>Working Papers</h2><hr />
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<p><strong>"Pass-Through and Tax Incidence in Housing Markets: Evidence from a National Reform,"</strong> with Sebastian Espinoza<br />
+<a href="https://www.dropbox.com/scl/fi/d8ibizhf8ilm741d1uooa/vat_housing_chile_draft.pdf?rlkey=itg10kykxmk3m3yk6magr0p1c&st=fh4lmjvl&dl=0">Paper</a></p>
 
+<details>
+<summary>Abstract</summary>
+<p>We provide the first estimates of VAT incidence in the housing market, exploiting a 2016 reform in Chile that introduced a 19% tax on sales by developers while exempting resales by individual homeowners. Using rich administrative data covering nearly the universe of residential transactions, we implement a difference-in-differences design that leverages the differential tax treatment across seller types. Apartment prices per square meter rose by approximately 11.8% within three years, with consumers bearing 75% of the effective tax rate. This increase combines two margins: an 8.5% rise in nominal prices and a 3.2% decline in unit sizes. Despite the large tax, transaction volumes did not decline. Purchase contracts surged by 33% before implementation and fell by a comparable amount immediately after, indicating pure re-timing rather than a permanent demand response. The tax raised revenue without reducing market activity, but at the cost of higher prices and smaller apartments for buyers.</p>
+</details>
 
+<p><em>Presented at the NTA Conference 2025, SOCAE Conference 2025, and scheduled for the AREUEA National Conference 2026.</em></p>
 
+<h2>Publications</h2><hr />
+
+<p><strong>"Rural-Urban Migration at High Urbanization Levels,"</strong> with Juan Pablo Chauvin and Matias Busso. <em>Regional Science and Urban Economics</em>, 2021<br />
+<a href="https://www.dropbox.com/scl/fi/en0rwwqgeno0d5s0pftsv/Rural-Urban-Migration-at-High-Urbanization-Levels.pdf?rlkey=stcq847te799viuoz2qsvz3ci&st=3p45jroz&dl=0">Paper</a></p>
+
+<details>
+<summary>Abstract</summary>
+<p>This study assesses the empirical relevance of the Harris-Todaro model at high levels of urbanization &mdash; a feature that characterizes an increasing number of developing countries, which were largely rural when the model was created 50 years ago. Using data from Brazil, we compare observed and model-based predictions of the equilibrium urban employment rate of 449 cities and the rural regions that are the historic sources of their migrant populations. We find little support in the data for the most basic version of the model. However, extensions that incorporate labor informality and housing markets have much better empirical traction. Harris-Todaro equilibrium relationships are relatively stronger among workers with primary but no high-school education, and are more frequently found under certain conditions: when cities are relatively larger; and when associated rural areas are closer to the magnet city, and are populated to a greater degree by young adults, who are most likely to migrate.</p>
+</details>

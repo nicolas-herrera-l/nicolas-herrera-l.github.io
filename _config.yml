@@ -24,18 +24,18 @@ repository               : "nicolas-herrera-l.github.io"
 author:
   # Biographic information
   avatar           : "main_picture.jpg"
-  name             : "Juan Nicolas Herrera"
+  name             : # URL
   pronouns         : # example: "she/her"  
-  bio              : "PhD Candidate at University of California, Santa Barbara"
+  bio              : # URL
   location         : # URL
   employer         : # URL
   uri              : # URL
-  email            : "jherreralarotta@ucsb.edu" 
+  email            : "# URL
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=p_f2-KAAAAAJ&hl=es"
+  googlescholar    : # URL
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : # URL
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/juan-nicolas-herrera/"
+  linkedin         : # URL
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
