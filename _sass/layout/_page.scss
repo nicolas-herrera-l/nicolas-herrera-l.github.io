@@ -25,8 +25,13 @@
 
   .main--home & {
     @include breakpoint($large) {
-      @include span(9 of 12 last);
-      @include prefix(0.5 of 12);
+      float: none;
+      width: auto;
+      margin-left: 37%;
+    }
+
+    @include breakpoint($x-large) {
+      margin-left: 530px;
     }
   }
 
