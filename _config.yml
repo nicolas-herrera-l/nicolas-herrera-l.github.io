@@ -23,14 +23,14 @@ repository               : "nicolas-herrera-l.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "main_picture.jpg"
+  avatar           : "opcion_6.jpg"
   name             : # URL
   pronouns         : # example: "she/her"  
   bio              : # URL
   location         : # URL
   employer         : # URL
   uri              : # URL
-  email            : "# URL
+  email            : # URL
 
   # Academic websites
   academia         : # URL
