@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome"
+title: "Hi, I'm Juan Nicolas Herrera La Rotta"
 author_profile: true
 redirect_from: 
   - /about/

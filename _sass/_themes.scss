@@ -27,7 +27,8 @@ $georgia                    : Georgia, serif;
 $times                      : Times, serif;
 $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
-$lora                       : "Lora", Georgia, "Times New Roman", Times, serif;
+$poppins                    : "Poppins", -apple-system, "Helvetica Neue", Arial, sans-serif;
+$lato                       : "Lato", -apple-system, "Helvetica Neue", Arial, sans-serif;
 
 /* Type scale */
 $type-size-1                : 2.441em;  // ~39.056px
@@ -39,9 +40,9 @@ $type-size-6                : 0.75em;   // ~12px
 $type-size-7                : 0.6875em; // ~11px
 $type-size-8                : 0.625em;  // ~10px
 
-$global-font-family         : $lora;
-$header-font-family         : $lora;
-$caption-font-family        : $lora;
+$global-font-family         : $lato;
+$header-font-family         : $poppins;
+$caption-font-family        : $lato;
 
 /* ==========================================================================
    Breakpoints

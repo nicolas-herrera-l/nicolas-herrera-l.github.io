@@ -160,11 +160,9 @@
 
   img {
     max-width: 100%;
-
-    @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid var(--global-border-color);
-    }
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
   }
 }
 
@@ -321,6 +319,41 @@
 
     &:hover {
       text-decoration: underline;
+    }
+  }
+}
+
+.main--home .author__urls-wrapper button {
+  display: none;
+}
+
+.main--home .author__urls {
+  display: flex;
+  gap: 10px;
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid var(--global-border-color);
+    border-radius: 50%;
+    font-size: 0; /* visually hide the label; still read by screen readers */
+
+    i {
+      font-size: $type-size-5;
+    }
+
+    &:hover {
+      text-decoration: none;
+      background: var(--global-border-color);
     }
   }
 }

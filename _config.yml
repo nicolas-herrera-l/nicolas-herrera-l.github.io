@@ -24,13 +24,13 @@ repository               : "nicolas-herrera-l.github.io"
 author:
   # Biographic information
   avatar           : "opcion_5.jpg"
-  name             : # URL
-  pronouns         : # example: "she/her"  
+  name             : "Juan Nicolas Herrera La Rotta"
+  pronouns         : # example: "she/her"
   bio              : # URL
   location         : # URL
   employer         : # URL
   uri              : # URL
-  email            : # URL
+  email            : "jherreralarotta@ucsb.edu"
 
   # Academic websites
   academia         : # URL
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # URL
+  linkedin         : "juan-nicolas-herrera"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
